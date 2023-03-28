@@ -10,7 +10,9 @@ hero:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
-    - the
+    - theme: alt
+      text: API Examples
+      link: /api-examples
 
 features:
   - title: Example Feature A
