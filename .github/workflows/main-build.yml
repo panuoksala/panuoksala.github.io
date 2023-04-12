@@ -3,7 +3,7 @@ on:
   workflow_dispatch: {}
   push:
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -19,4 +19,3 @@ jobs:
       - run: npm ci
       - name: Build
         run: npm run docs:build
-      - uses: actions/configure-pages@v2
