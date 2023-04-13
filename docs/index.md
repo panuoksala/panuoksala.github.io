@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
-
+!layout: home
+&
 hero:
   name: "Example VitePress Site"
   text: "This is just sample site"
